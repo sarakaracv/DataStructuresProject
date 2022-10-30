@@ -50,10 +50,10 @@ public class MyTree {
         System.out.print(root.value+", ");
         inOrderTraversal(root.rightChild);
     }
-    void PostOrderTraversal(TNode root){
+    void postOrderTraversal(TNode root){
         if (root==null) return;
-        PostOrderTraversal(root.leftChild);
-        PostOrderTraversal(root.rightChild);
+        postOrderTraversal(root.leftChild);
+        postOrderTraversal(root.rightChild);
         System.out.print(root.value+", ");
     }
     void levelOrderTraversal(){
