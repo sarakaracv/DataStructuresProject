@@ -2,6 +2,7 @@ package org.cydeo;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.TreeMap;
 
 public class CollectionsQueue {
     public static void main(String[] args) {
@@ -15,5 +16,6 @@ public class CollectionsQueue {
         cq.add(3);
         System.out.println(cq.remove());
         System.out.println(cq.remove());
+        TreeMap<Integer, String> hmp=new TreeMap<>();
     }
 }
