@@ -18,7 +18,7 @@ public class ExprBalanceCheck {
                 continue;
             }
             // at this point this is a closing symbol
-            // stack shouldnt be empty
+            // stack should not be empty
             if (myStack.isEmpty()) return false;
             switch(ch) {
                 case ')':
